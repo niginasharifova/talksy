@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84964E322D40C3DD00CF4D2F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84964E312D40C3DD00CF4D2F /* SnapKit */; };
+		84964E462D40E87B00CF4D2F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 84964E452D40E87B00CF4D2F /* FirebaseAuth */; };
+		84964E482D40E87B00CF4D2F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 84964E472D40E87B00CF4D2F /* FirebaseFirestore */; };
+		84964E4A2D40E87B00CF4D2F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 84964E492D40E87B00CF4D2F /* FirebaseStorage */; };
+		84964E822D41A77F00CF4D2F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 84964E812D41A77F00CF4D2F /* FirebaseDatabase */; };
+		84964E852D42074A00CF4D2F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84964E842D42074A00CF4D2F /* RealmSwift */; };
+		84964E882D4207FE00CF4D2F /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84964E872D4207FE00CF4D2F /* MessageKit */; };
+		84964E8B2D42082000CF4D2F /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 84964E8A2D42082000CF4D2F /* JGProgressHUD */; };
+		84964E8E2D42085D00CF4D2F /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 84964E8D2D42085D00CF4D2F /* SDWebImage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84964DE52D40AF8300CF4D2F /* Talksy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Talksy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		84964DF72D40AF8400CF4D2F /* Exceptions for "Talksy" folder in "Talksy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 84964DE42D40AF8300CF4D2F /* Talksy */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		84964DE72D40AF8300CF4D2F /* Talksy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				84964DF72D40AF8400CF4D2F /* Exceptions for "Talksy" folder in "Talksy" target */,
+			);
+			path = Talksy;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84964DE22D40AF8300CF4D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84964E852D42074A00CF4D2F /* RealmSwift in Frameworks */,
+				84964E822D41A77F00CF4D2F /* FirebaseDatabase in Frameworks */,
+				84964E322D40C3DD00CF4D2F /* SnapKit in Frameworks */,
+				84964E882D4207FE00CF4D2F /* MessageKit in Frameworks */,
+				84964E8B2D42082000CF4D2F /* JGProgressHUD in Frameworks */,
+				84964E4A2D40E87B00CF4D2F /* FirebaseStorage in Frameworks */,
+				84964E8E2D42085D00CF4D2F /* SDWebImage in Frameworks */,
+				84964E462D40E87B00CF4D2F /* FirebaseAuth in Frameworks */,
+				84964E482D40E87B00CF4D2F /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84964DDC2D40AF8300CF4D2F = {
+			isa = PBXGroup;
+			children = (
+				84964DE72D40AF8300CF4D2F /* Talksy */,
+				84964E802D41A77F00CF4D2F /* Frameworks */,
+				84964DE62D40AF8300CF4D2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84964DE62D40AF8300CF4D2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84964DE52D40AF8300CF4D2F /* Talksy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84964E802D41A77F00CF4D2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84964DE42D40AF8300CF4D2F /* Talksy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84964DF82D40AF8400CF4D2F /* Build configuration list for PBXNativeTarget "Talksy" */;
+			buildPhases = (
+				84964DE12D40AF8300CF4D2F /* Sources */,
+				84964DE22D40AF8300CF4D2F /* Frameworks */,
+				84964DE32D40AF8300CF4D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				84964DE72D40AF8300CF4D2F /* Talksy */,
+			);
+			name = Talksy;
+			packageProductDependencies = (
+				84964E312D40C3DD00CF4D2F /* SnapKit */,
+				84964E452D40E87B00CF4D2F /* FirebaseAuth */,
+				84964E472D40E87B00CF4D2F /* FirebaseFirestore */,
+				84964E492D40E87B00CF4D2F /* FirebaseStorage */,
+				84964E812D41A77F00CF4D2F /* FirebaseDatabase */,
+				84964E842D42074A00CF4D2F /* RealmSwift */,
+				84964E872D4207FE00CF4D2F /* MessageKit */,
+				84964E8A2D42082000CF4D2F /* JGProgressHUD */,
+				84964E8D2D42085D00CF4D2F /* SDWebImage */,
+			);
+			productName = Talksy;
+			productReference = 84964DE52D40AF8300CF4D2F /* Talksy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84964DDD2D40AF8300CF4D2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					84964DE42D40AF8300CF4D2F = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 84964DE02D40AF8300CF4D2F /* Build configuration list for PBXProject "Talksy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84964DDC2D40AF8300CF4D2F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				84964E302D40C3DD00CF4D2F /* XCRemoteSwiftPackageReference "SnapKit" */,
+				84964E442D40E87B00CF4D2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				84964E832D42074A00CF4D2F /* XCRemoteSwiftPackageReference "realm-swift" */,
+				84964E862D4207FE00CF4D2F /* XCRemoteSwiftPackageReference "MessageKit" */,
+				84964E892D42082000CF4D2F /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				84964E8C2D42085D00CF4D2F /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 84964DE62D40AF8300CF4D2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84964DE42D40AF8300CF4D2F /* Talksy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84964DE32D40AF8300CF4D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84964DE12D40AF8300CF4D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84964DF92D40AF8400CF4D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2AL9DVZTAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Talksy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.talksy.app.Talksy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84964DFA2D40AF8400CF4D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2AL9DVZTAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Talksy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.talksy.app.Talksy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84964DFB2D40AF8400CF4D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84964DFC2D40AF8400CF4D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84964DE02D40AF8300CF4D2F /* Build configuration list for PBXProject "Talksy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84964DFB2D40AF8400CF4D2F /* Debug */,
+				84964DFC2D40AF8400CF4D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84964DF82D40AF8400CF4D2F /* Build configuration list for PBXNativeTarget "Talksy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84964DF92D40AF8400CF4D2F /* Debug */,
+				84964DFA2D40AF8400CF4D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84964E302D40C3DD00CF4D2F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		84964E442D40E87B00CF4D2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+		84964E832D42074A00CF4D2F /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		84964E862D4207FE00CF4D2F /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		84964E892D42082000CF4D2F /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+		84964E8C2D42085D00CF4D2F /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84964E312D40C3DD00CF4D2F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84964E302D40C3DD00CF4D2F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		84964E452D40E87B00CF4D2F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84964E442D40E87B00CF4D2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		84964E472D40E87B00CF4D2F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84964E442D40E87B00CF4D2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		84964E492D40E87B00CF4D2F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84964E442D40E87B00CF4D2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		84964E812D41A77F00CF4D2F /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84964E442D40E87B00CF4D2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		84964E842D42074A00CF4D2F /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84964E832D42074A00CF4D2F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		84964E872D4207FE00CF4D2F /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84964E862D4207FE00CF4D2F /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+		84964E8A2D42082000CF4D2F /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84964E892D42082000CF4D2F /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		84964E8D2D42085D00CF4D2F /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84964E8C2D42085D00CF4D2F /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 84964DDD2D40AF8300CF4D2F /* Project object */;
+}
